@@ -1,0 +1,38 @@
+.logined{
+    display: flex;
+    color: white;
+    font-size: 25px;
+    margin-left: 30%;
+    margin-top: 15%;
+    margin-right: 30%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.logined form{
+    display: flex;
+    flex-direction: column;
+}
+.logined form input{
+    background: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.logined form button{
+    background: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+}
+.logined form button:hover{
+    background:#FF0000;
+    border: 1px solid #FF0000;
+    border-radius: 12px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.header img{
+    width: 70px;
+    border-radius: 30px;
+}
+.login{
+    color: white;
+    display: flex;
+    font-size: 20px;
+    background: #221F1F;
+    border: 1px solid #221F1F;
+    cursor: pointer;
+}
+.login img{
+    width: 70px;
+    border-radius: 10px;
+}
+.login p{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.login:hover{
+    color: #FF0000;
+}
+.price{
+    color:#FF0000;
+}
+.link{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.link p{
+    padding-right: 20px;
+}
