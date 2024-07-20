@@ -182,3 +182,11 @@ body{
     border-radius: 12px;
     color: #FF0000;
 }
+.commonTimeSlot{
+    color: white;
+    background: #221F1F;
+}
+.activeTimeSlot{
+    color: red !important;
+    background: white !important;
+}

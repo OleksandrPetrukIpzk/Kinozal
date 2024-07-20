@@ -15,7 +15,7 @@
     display: flex;
     font-size: 20px;
     background: #221F1F;
-    border: 1px solid #221F1F;
+    border: 0;
     cursor: pointer;
 }
 .login img{

@@ -1,11 +1,11 @@
 import {List} from "./Components/ListFilms/List";
 import {Header} from "./Components/Header/Header";
-import {createContext, useState} from "react";
+import {useState} from "react";
 import {Context} from "./context";
 
 function App() {
-
     const [login, setLogin] = useState('hi');
+
   return (
       <Context.Provider value={{login, setLogin}}>
     <div className="App">

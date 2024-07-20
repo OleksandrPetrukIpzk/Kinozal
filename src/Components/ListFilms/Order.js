@@ -1,16 +1,17 @@
 import {useNavigate} from "react-router-dom";
+import {dateKey, filmKey, personKey, priceKey} from "../../constants";
 
 export const Order = () =>{
-    const item = JSON.parse(localStorage.getItem('film'));
+    const item = JSON.parse(localStorage.getItem(filmKey));
     const navigator = useNavigate()
-    const date = localStorage.getItem('date');
-    const human = localStorage.getItem('person').length > 0 ? localStorage.getItem('person') : 'Nevidomo';
-    const price = localStorage.getItem('price');
+    const date = localStorage.getItem(dateKey);
+    const human = localStorage.getItem(personKey) ? localStorage.getItem(personKey) : 'Non found';
+    const price = localStorage.getItem(priceKey);
     const back = () =>{
         navigator('/', {replace:true})
     }
     return(<div className='zakaz'>
-        <p>Order number {558}</p>
+        <p>Order number {Math.random() * 1000}</p>
         <p>Film name: {item.title}</p>
         <p>Technology film: {item.technology}</p>
         <p>Price for film: {item.price}</p>
